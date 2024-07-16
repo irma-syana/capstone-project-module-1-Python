@@ -29,7 +29,7 @@ Aplikasi ini menggunakan tabel untuk menyimpan dan menampilkan data pasien. Beri
       Kolom                Deskripsi 
     -------               ------------------------------------------------------------------------------------
         ID                 ID unik untuk setiap pasien yang terdiri dari tiga huruf pertama nama dan nomor urut 
-        Nama               Pasien	Nama lengkap pasien
+        Nama Pasien	      Nama lengkap pasien
         Umur               Umur pasien dalam format "tahun bulan"
         Jenis Kelamin      Jenis kelamin pasien, 'L' untuk laki-laki, 'P' untuk perempuan
         Domisili	       Tempat tinggal pasien.
@@ -45,10 +45,10 @@ Aplikasi ini menggunakan tabel untuk menyimpan dan menampilkan data pasien. Beri
    - 'rekap_data_pasien()' : Menampilkan semua data pasien.
    - 'registrasi()' : Menambah data pasien baru.
    - 'perbaharui_data()': Memperbaharui data pasien yang ada.
-   - hapus_data(): Menghapus data pasien dan memindahkannya ke tempat sampah sementara.
-   - pemulihan_data(): Memulihkan data pasien yang dihapus.
+   - 'hapus_data()': Menghapus data pasien dan memindahkannya ke tempat sampah sementara.
+   - 'pemulihan_data()': Memulihkan data pasien yang dihapus.
 3. Fitur Tambahan:
-   - 'urutkan_data(): Mengurutkan data pasien berdasarkan kriteria tertentu.
-   - filter_data(): Memfilter data pasien berdasarkan kriteria tertentu.
+   - 'urutkan_data()': Mengurutkan data pasien berdasarkan kriteria tertentu.
+   - 'filter_data()': Memfilter data pasien berdasarkan kriteria tertentu.
 4. Menu Utama: Fungsi menu_utama() yang menampilkan menu interaktif bagi pengguna untuk memilih fitur yang ingin digunakan.
 
